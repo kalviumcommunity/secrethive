@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Sanchez:ital@1&display=swap');
+
+.bodycontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 10em;
+    width: 100%;
+}
+.logo img{
+    width: 27.75em;
+    height: 5.625em;
+}
+
+.content{
+    margin-top: 1.875em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+p{
+    font-size: 1em;
+}
+a{
+    color: rgb(3, 130, 255);
+    font-size: 1.01em;
+}
+.getStartedButton{
+    width: 11.375em;
+    height: 2.875em;
+    color: white;
+    border: 1px solid rgb(10, 58, 105);
+    margin-top: 7.5em;
+    align-items: center;
+}
+
+.fill{
+    margin: 0.188em;
+    width: 11em;
+    height: 2.5em;
+    background-color:rgb(10, 58, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#getbutton, #arrow{
+    font-size: 1.25;
+    font-weight: 600;
+}
+  
+#getbutton {
+    text-align: center;
+}
+  
+#arrow {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.footer{
+    background-color: rgb(10,58,105);
+    width: 100%;
+    color: white;
+    height: 11.875em;
+    text-align: right;
+    font-family: 'Sanchez', serif;
+    font-size: 1em;
+}
+p{
+    padding-right: 5em;
+    padding-top: 3em;
+}
