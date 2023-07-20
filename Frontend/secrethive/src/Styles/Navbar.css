@@ -22,6 +22,10 @@
     padding-left: 0.938em;
 }
 
+.leftside img:hover{
+    cursor: pointer;
+}
+
 .rightside{
     text-align: right;
     padding-top: 0.813em;

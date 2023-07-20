@@ -10,33 +10,29 @@ import Landing from './Pages/Landing';
 import Signin from './Pages/Signin';
 import Signup from './Pages/Signup';
 import Verification from './Pages/Verification';
-import Footer from './Components/Footer';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
-      <>
-        <Router>
-          <Routes>
-            <Route path='./Pages/Home.jsx' exact Component={Home}/>
-            <Route path='./Pages/About.jsx' exact Component={About}/>
-            <Route path='./Pages/Encryption.jsx' exact Component={Encryption}/>
-            <Route path='./Pages/EncryptionKey.jsx' exact Component={EncryptionKey}/>
-            <Route path='./Pages/Decryption.jsx' exact Component={Decryption}/>
-            <Route path='./Pages/DecryptionKey.jsx' exact Component={DecryptionKey}/>
-            <Route path='./Pages/ForgotPassword.jsx' exact Component={ForgotPassword}/>
-            <Route path='/' exact Component={Landing}/>
-            <Route path='./Pages/Signin.jsx' exact Component={Signin}/>
-            <Route path='./Pages/Signup.jsx' exact Component={Signup}/>
-            <Route path='./Pages/Verification.jsx' exact Component={Verification}/>
-          </Routes>
-        </Router>
-      </>
-      <div className='foot'>
-        <Footer/>
-      </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path='./Pages/Home' element={<Home/>}/>
+          <Route path='/Pages/About' element={<About/>}/>
+          <Route path='/Pages/Encryption' element={<Encryption/>}/>
+          <Route path='/Pages/EncryptionKey' element={<EncryptionKey/>}/>
+          <Route path='/Pages/Decryption' element={<Decryption/>}/>
+          <Route path='/Pages/DecryptionKey' element={<DecryptionKey/>}/>
+          <Route path='/Pages/ForgotPassword' element={<ForgotPassword/>}/>
+          <Route path='/' element={<Landing/>}/>
+          <Route path='/Pages/Signin' element={<Signin/>}/>
+          <Route path='/Pages/Signup' element={<Signup/>}/>
+          <Route path='/Pages/Verification' element={<Verification/>}/>
+        </Routes>
+      </Router>
+    </>
     </div>
   );
 }
