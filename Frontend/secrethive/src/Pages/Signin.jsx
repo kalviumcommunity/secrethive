@@ -1,8 +1,11 @@
 import React from 'react'
+import SideDiv from '../Components/SideDiv'
 
-function Signin() {
+const Signin = () => {
   return (
-    <div><h1>Signin</h1></div>
+        <div>
+          <SideDiv/>
+        </div>
   )
 }
 

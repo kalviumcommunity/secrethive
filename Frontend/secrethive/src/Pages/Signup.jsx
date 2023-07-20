@@ -1,8 +1,11 @@
 import React from 'react'
+import SideDiv from '../Components/SideDiv'
 
 const Signup = () => {
   return (
-    <div>Signup</div>
+    <div>
+      <SideDiv/>
+    </div>
   )
 }
 

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Sanchez:ital@1&display=swap');
+
+
+.md{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(10,58,105);
+    width: 35%;
+    height: 100vh;
+}
+
+.ls{
+    height: 100%;
+}
+
+.ls img{
+    padding-top: 50px;
+    width: 267px;
+    height: 50px;
+}
+
+.ls img:hover{
+    cursor: pointer;
+}
+
+#hh, #pp{
+    width: 300px;
+    color : white;
+}
+
+#hh{
+    padding-top: 200px;
+}
+#pp{
+    padding-top: 15px;
+}
+@media (max-width: 768px){
+    .ls img{
+        width: 150px;
+        height: 32px;
+    }
+    #hh{
+        width: 150px;
+        font-size: 15px;
+    }
+    #pp{
+        width: 150px;
+        font-size: 10px;
+    }
+}
