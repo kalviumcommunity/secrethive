@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Sanchez:ital@1&display=swap');
+
+#body{
+    display: flex;
+    justify-content: center;
+}
+.getStartedButton{
+    font-family: 'Inter', sans-serif;
+    width: 11.475em;
+    height: 2.975em;
+    color: white;
+    border: 1px solid rgb(10, 58, 105);
+    margin: 7.5em;
+    align-items: center;
+    background-color: white;
+}
+
+.fill{
+    margin: 0.188em;
+    width: 11em;
+    height: 2.5em;
+    background-color:rgb(10, 58, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#getbutton, #arrow{
+    font-size: 1.25;
+    font-weight: 600;
+}
+  
+#getbutton {
+    text-align: center;
+}
+  
+#arrow {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.getStartedButton:hover{
+    cursor: pointer;
+}

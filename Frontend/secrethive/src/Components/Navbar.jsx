@@ -4,15 +4,18 @@ import { Link } from 'react-router-dom'
 import '../Styles/Navbar.css'
 
 function Navbar() {
+  const handleClick = () => {
+    window.location.href = '/';
+};
   return (
     <div className='navbar'>
         <div className='leftside'>
-            <img src={SmallLogo}/>
+            <img src={SmallLogo}  onClick={handleClick}/>
         </div>
         <div className='rightside'>
-          <Link to="../Pages/About.jsx" className='link'>About</Link>
-          <Link to="../Pages/Signin.jsx" className='link'>Sign in</Link>
-          <Link to="../Pages/Signup.jsx" id='button'>Sign up</Link>
+          <Link to="../Pages/About" className='link'>About</Link>
+          <Link to="/Pages/Signin" className='link'>Sign in</Link>
+          <Link to="/Pages/Signup" id='button'>Sign up</Link>
         </div>
     </div>
   )
