@@ -23,10 +23,10 @@
     margin-left: 20vw;
     margin-right: 20vw;
 }
-p{
+.content p{
     font-size: 1em;
 }
-a{
+.content a{
     color: rgb(3, 130, 255);
     font-size: 1.01em;
 }
