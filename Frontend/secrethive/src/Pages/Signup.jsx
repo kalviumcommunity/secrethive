@@ -1,6 +1,7 @@
 import React from 'react'
 import SideDiv from '../Components/SideDiv'
-import '../Styles/Signup.css'
+import { Link } from 'react-router-dom'
+import '../Styles/Sign.css'
 
 const Signup = () => {
   return (
@@ -18,11 +19,11 @@ const Signup = () => {
             <input type="password" id="passwordinp" placeholder='Enter new password' required/><br/>
             <label for="repasswordinp">Re-enetr password:</label><br/>
             <input type="password" id="repasswordinp" placeholder='Re-enter the password' required/><br/>
-            <button type='submit'> Sign up</button>
+            <button type='submit'><Link className='link' to=''> Sign up </Link></button>
           </form>
         </div>
         <div className='signupsubdiv3'>
-          <p>Already have an account?<b>Sign in!</b></p>
+          <p>Already have an account?<b><Link className='link' to='../Pages/Signin'>Sign in!</Link></b></p>
       </div>
       </div>
     </div>
