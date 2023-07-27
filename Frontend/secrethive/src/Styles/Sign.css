@@ -1,35 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Sanchez:ital@1&display=swap');
 
-.siginupmaindiv{
+.siginupmaindiv,.sigininmaindiv{
     display: flex;
     color: rgb(10,58,105);
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
-.signupsubdiv2{
+.signupsubdiv2, .signinsubdiv2{
     margin-top: 70px;
     margin-left: 70px;
 }
 
-.signupdiv21 p{
+.signupdiv21 p, .signindiv21 p{
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 60px;
 }
 
-.signupdiv22 label{
+.signupdiv22 label, .signindiv22 label{
     font-size: 16px;
     font-weight: 600;
 }
 
-.signupdiv22 input::placeholder{
+.signupdiv22 input::placeholder, .signindiv22 input::placeholder{
     color: rgb(93, 126, 160);
     font-size: 12px;
     font-weight: 300;
 }
 
-.signupdiv22 input{
+.signupdiv22 input, .signindiv22 input{
     padding-left: 10px;
     height: 38px;
     width: 540px;
@@ -38,7 +38,7 @@
     margin-bottom: 23px;
 }
 
-.signupdiv22 button{
+.signupdiv22 button, .signindiv22 button{
     text-align: center;
     color: white;
     background-color: rgb(10,58,105);
@@ -49,28 +49,54 @@
     margin-top: 80px;
 }
 
+#signindfp{
+    position: relative;
+}
+
+#signinfp{
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: 60px;
+    left: 420px;
+}
 
 @media (max-width: 768px){
-    .signupdiv22 input{
+    .signupdiv22 input, .signindiv22 input{
         height: 28px;
         width: 300px;
     }
-    .signupdiv22 button{
+    .signupdiv22 button, .signindiv22 button{
         margin-top: 35px;
         width: 90px;
         height: 40px;
         font-size: 18px;
         font-weight: 550;
     }
+    #signinfp{
+        font-size: 13px;
+        top: 50px;
+        left: 200px;
+    }
 }
 
-.signupsubdiv3 p{
+.signupsubdiv3 p, .signinsubdiv3 p{
     margin-top: 70px;
     font-size: 17px;
     font-weight: 400;
 }
 
-.signupsubdiv3 p b{
+.signupsubdiv3 p b, .signinsubdiv3 p b{
     font-size: 20px;
     font-weight: 700;
+}
+
+.link, #slink{
+    text-decoration: none;
+}
+.signindiv22 button #slink, .signupdiv22 button .link{
+    color: white;
+}
+#signinfp .link, .signinsubdiv3 .link, .signupsubdiv3 .link{
+    color: rgb(10,58,105);
 }
