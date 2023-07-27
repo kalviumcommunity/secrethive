@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Sanchez:ital@1&display=swap');
+
+.siginupmaindiv{
+    display: flex;
+    color: rgb(10,58,105);
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.signupsubdiv2{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.signupdiv21 p{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.signupdiv22 label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.signupdiv22 input::placeholder{
+    color: rgb(93, 126, 160);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.signupdiv22 input{
+    padding-left: 10px;
+    height: 38px;
+    width: 540px;
+    border: 2px solid rgb(186, 204, 221);
+    background-color: rgb(235, 245, 254);
+    margin-bottom: 23px;
+}
+
+.signupdiv22 button{
+    text-align: center;
+    color: white;
+    background-color: rgb(10,58,105);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 80px;
+}
+
+
+@media (max-width: 768px){
+    .signupdiv22 input{
+        height: 28px;
+        width: 300px;
+    }
+    .signupdiv22 button{
+        margin-top: 35px;
+        width: 90px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 550;
+    }
+}
+
+.signupsubdiv3 p{
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.signupsubdiv3 p b{
+    font-size: 20px;
+    font-weight: 700;
+}

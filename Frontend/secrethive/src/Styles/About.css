@@ -15,13 +15,18 @@
     padding-top: 20px;
     width: 267px;
     height: 50px;
+    padding-bottom: 50px;
 }
 
 .subdiv2{
-    padding-left: 10vw;
+    display: flex;
+    justify-content: center ;
 }
-
+#subdiv23{
+    width: 80%;
+}
 .subdiv2 p{
+    padding-bottom: 25px;
     font-size: 18px;
     font-weight: 500;
 }
